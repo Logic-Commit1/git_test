@@ -1,0 +1,73 @@
+*{
+    font-family: 'DynaPuff';
+    color: antiquewhite;
+}
+
+body {
+    background-color: #5b2f03 ;
+}
+
+main {
+    margin: 50px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.title{
+    font-size: 2em;
+}
+
+
+#start-button, #try-again {
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #905821;
+}
+
+#start-button:hover, #try-again:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
+}
+.choices-area {
+    display: none;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 50px auto;
+    
+
+}
+
+.choices-button{
+    padding: 60px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.choices-button:hover {
+    cursor: pointer;
+    filter:brightness(0.9)
+}
+
+#rock-choice {
+    background-image: url(./pics/rocks.png);
+}
+#paper-choice {
+    background-image: url(./pics/note.png);
+}
+#scissors-choice {
+    background-image: url(./pics/scissors.png);
+}
+
+.result {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+#try-again{
+    display: none;
+}
